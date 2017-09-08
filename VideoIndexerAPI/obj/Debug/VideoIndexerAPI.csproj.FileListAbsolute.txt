@@ -1,0 +1,8 @@
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\bin\Debug\VideoIndexerAPI.exe.config
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\bin\Debug\VideoIndexerAPI.exe
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\bin\Debug\VideoIndexerAPI.pdb
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\bin\Debug\Newtonsoft.Json.dll
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\bin\Debug\Newtonsoft.Json.xml
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\obj\Debug\VideoIndexerAPI.exe
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\obj\Debug\VideoIndexerAPI.pdb
+D:\BOT Projects\VideoIndexer\VideoIndexerAPI\VideoIndexerAPI\obj\Debug\VideoIndexerAPI.csprojResolveAssemblyReference.cache
