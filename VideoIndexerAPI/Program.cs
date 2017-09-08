@@ -29,13 +29,13 @@ namespace VideoIndexerAPI
         /// </summary>
         private static void indexer()
         {
-            var key = "6a4ae6e259eb401492514d38cd78dcfc";
+            var key = "Add Your Key Here";
             var apiUrl = "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns";
             HttpClient client = new HttpClient();
 
             client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", key);
 
-            var videoPath = @"D:\test1.mp4";
+            var videoPath = @"D:\test1.mp4";//Your local video path(mp4)
             
             var content = new MultipartFormDataContent();
             //content.Add(new StreamContent(File.Open(videoPath, FileMode.Open)), "Video", "Video");
@@ -70,32 +70,7 @@ namespace VideoIndexerAPI
                 }
             }
 
-            //result = client.GetAsync(string.Format(apiUrl + "/{0}", id)).Result;
-            //json = result.Content.ReadAsStringAsync().Result;
-            //Console.WriteLine();
-            //Console.WriteLine("Full JSON:");
-            //Console.WriteLine(json);
-
-            //result = client.GetAsync(string.Format(apiUrl + "/Search?id={0}", id)).Result;
-            //json = result.Content.ReadAsStringAsync().Result;
-            //Console.WriteLine();
-            //Console.WriteLine("Search:");
-            //Console.WriteLine(json);
-
-            //result = client.GetAsync(string.Format(apiUrl + "/{0}/InsightsWidgetUrl", id)).Result;
-            //json = result.Content.ReadAsStringAsync().Result;
-            //Console.WriteLine();
-            //Console.WriteLine("Insights Widget url:");
-            //Console.WriteLine(json);
-
-            //result = client.GetAsync(string.Format(apiUrl + "/{0}/PlayerWidgetUrl", id)).Result;
-            //json = result.Content.ReadAsStringAsync().Result;
-            //Console.WriteLine();
-            //Console.WriteLine("Player token:");
-            //Console.WriteLine(json);
-
-
-            
+                      
 
             result = client.GetAsync(string.Format(apiUrl + "/{0}", id)).Result;
             var jsonRes = result.Content.ReadAsStringAsync().Result;
